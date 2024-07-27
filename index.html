@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .project {
+            background: #fff;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 30%;
+            box-sizing: border-box;
+        }
+        .project img {
+            max-width: 100%;
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre mí</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="introduction">
+            <h2>Bienvenido a mi portafolio</h2>
+            <p>Soy un programador apasionado con experiencia en .NET, bases de datos y servicios web. Aquí encontrarás algunos de los proyectos en los que he trabajado.</p>
+        </section>
+
+        <section class="projects">
+            <div class="project">
+                <img src="proyecto1.jpg" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del Proyecto 1.</p>
+            </div>
+            <div class="project">
+                <img src="proyecto2.jpg" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del Proyecto 2.</p>
+            </div>
+            <div class="project">
+                <img src="proyecto3.jpg" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+                <p>Descripción breve del Proyecto 3.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mi Nombre. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
